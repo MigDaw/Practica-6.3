@@ -16,3 +16,7 @@ Se trata de un proyecto sencillo que implementa un API de gestión de usuarios. 
 - Backend: Se indica que se va a construir (hará el build) desde el directorio “backend”, que contiene un archivo Dockerfile con las sentencias necesarias para descargar la imagen de Node desde DockerHub.
 
 - Frontend: Se indica que se descargará una imagen de DockerHub con la última versión de Nginx, que es quien servirá la parte estática de la aplicación.
+
+## Se ha añadido una nueva funcionalidad de resgistro de peticiones HTTP
+- Esta funcionalidad sire para monitorear las solicitudes que llegan al servidor.
+- Cada vez que el servidor recibe una solicitud HTTP se registrará en la consola
