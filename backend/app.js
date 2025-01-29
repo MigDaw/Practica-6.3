@@ -5,7 +5,8 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const { readDB, writeDB } = require('./db');
 const app = express();
-const PORT = 3000;
+//fix/URG111 cambio de puerto de escucha de 3000 a 4000
+const PORT = 4000;
 
 app.use(cors());
 app.use(bodyParser.json());
